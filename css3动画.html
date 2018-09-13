@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	div {
+		width: 200px;
+		height: 200px;
+		background-color: red;
+
+
+	}
+	div:hover {
+		animation: scale 2s;
+		
+	}
+	@keyframes scale {
+			from {
+				background-color: red;
+			}
+			to {
+				background-color: blue;
+			}
+		}
+
+		span {
+			display: inline-block;
+			width: 100px;
+			height: 100px;
+			background-color: orange;
+		}
+		span:hover {
+			animation: tran 2s;
+		}
+		@keyframes tran {
+			0% {
+				background-color: orange;
+			}
+			100% {
+				background-color: blue;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div></div>
+
+
+	<span></span>
+	
+</body>
+</html>
